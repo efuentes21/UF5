@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="cat">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulari 1 d'enregistrament</title>
+    </head>
+    <body>
+        <h1>
+            Formulari bàsic de registre
+        </h1>
+        <!-- FORMULARI | <form> -->
+        <form>
+            <!-- NOM I COGNOM | Control de text || MÁX 50car <input type="text" name="nom" maxlength="50"> -->
+            <dl>
+                <dt>
+                    Nom: <input type="text" name="nom" maxlength="50">
+                </dt>
+                <dt>
+                    Cognom: <input type="text" name="cognom" maxlength="50">
+                </dt>
+                &nbsp;
+                <!-- SEXE | Selecció entre home o dona <input type="radio" name="sex" value="home/dona" -->
+                <dt>
+                    Home: <input type="radio" name="sex" value="home">
+                </dt>
+                <dt>
+                    Dona: <input type="radio" name="sex" value="dona">
+                </dt>
+                &nbsp;
+                <!-- CORREU ELECTÒNIC | Control de text -->
+                <dt>
+                    Correu: <input name="email" required="" type="email"> 
+                </dt>
+                &nbsp;
+                <!-- POBLACIÓ | Desplegable amb Arbúcies, Badalona, Barcelona, Girona, Vilassar de Mar <select><option value="Arbúcies">Arbúcies</options> -->
+                <dt>
+                    Població: <select>
+                        <option value="Arbúcies">Arbúcies</option>
+                        <option value="Badalona">Badalona</option>
+                        <option value="Barcelona">Barcelona</option>
+                        <option value="Girona">Girona</option>
+                        <option value="Vilassar de Mar">Vilassar de Mar</option>
+                    </select>
+                </dt>
+                &nbsp;
+                <!-- DESCRIPCIÓ | Àrea de text multilínia <textarea> -->
+                <dt>
+                    Descripció:
+                </dt>
+                <dt>
+                    <textarea></textarea>
+                </dt>
+                &nbsp;
+                <!-- VERIFICACIÓN DE NOVEDADES / CONDICIONS | Casella de verificació (Novetats activada per defecte) <input type="checkbox"> -->
+                <dt>
+                    <input type="checkbox" checked>Vull rebre informació sobre novetats i ofertes
+                </dt>
+                <dt>
+                    <input type="checkbox">Declaro haver llegit i acceptar les condicions generals del programa i la normativa sobre protecció de dades indicada al RGPD
+                </dt>
+                &nbsp;
+                <!-- BOTÓ PER ENVIAR | Botó <button> -->
+                <!-- MÈTODE D'ENVIAMENT | GET -->
+                <!-- DESTÍ D'ENVIAMENT | "" -->
+                <dt>
+                    <button type="submit" formmethod="get" formaction="">Enviar</button>
+                </dt>
+            </dl>
+            
+        </form>
+        
+        
+        
+        
+        
+        
+        
+
+    </body>
+</html>

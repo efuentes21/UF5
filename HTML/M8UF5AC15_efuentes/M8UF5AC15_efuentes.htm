@@ -1,0 +1,120 @@
+<DOCTYPE html>
+<html lang="cat">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulari d'enviament</title>
+	<script type="text/javascript">
+		function validar(){
+		var psswd=document.getElementById("psswd").value;
+		var confpsswd=document.getElementById("confpsswd").value;
+		if(psswd==confpsswd){
+			return true;
+		}
+		else{
+			alert("No coincideix");
+			return false;
+		}
+		}
+	</script>
+</head>
+<body style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+    <form method="post"="mailto:edgar.fuentes@inslapineda.cat" onsubmit="return validar();">
+        <table width="600px" align="center" cellspacing="0">
+            <tr>
+                <td bgcolor="#306090" colspan="2">
+                	<p style="color:white; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+						Enviar misatge<img src="img/gb_reload_s.gif" align="right"><hidden id="id"></hidden>
+					</p>
+                </td>
+            </tr>
+			<tr>
+				<td bgcolor="#EFEFEF" width="50%" align="right">
+					Nom: <input type="text">
+				</td>
+				<td width="50%" bgcolor="#EFEFEF" align="right"></td>
+			</tr>
+			<tr>
+				<td align="right" bgcolor="#EFEFEF">
+					Email: <input type="email" required="" name="email">
+				</td>
+				<td width="50%" bgcolor="#EFEFEF">&nbsp;</td>
+			</tr>
+			<tr>
+				<td align="right" bgcolor="#EFEFEF">
+					Arxiu: <input type="text" name="arxiu">
+				</td>
+				<td width="50%" bgcolor="#EFEFEF"><input type="file" name="arxiu_file" size="4000"></td>
+			</tr>
+			<tr>
+				<td align="right" bgcolor="#EFEFEF">
+					Imatge: <input type="text" name="imatge">
+				</td>
+				<td width="50%" bgcolor="#EFEFEF"><input type="file" name="imatge" size="4000"></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center" bgcolor="#EFEFEF">
+					<p style="font-size: 14px;">
+						El tamay de l'arxiu i la imatge no pot exedir els 4KBytes
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td bgcolor="#EFEFEF" width="50%" align="center" colspan="2">
+					Usuari: <input type="text" required="" maxlength="8">
+				</td>
+			</tr>
+			<tr>
+				<td bgcolor="#EFEFEF" width="50%" align="center" colspan="2">
+					Contrasenya: <input type="password" id="psswd" required="">
+				</td>
+			</tr>
+			<tr>
+				<td bgcolor="#EFEFEF" width="50%" align="center" colspan="2">
+					Repeteix Contrasenya: <input type="password" id="confpsswd" required="">
+				</td>
+			</tr>
+			<tr>
+				<th bgcolor="#EFEFEF" colspan="2">
+					Requereixo resposta: <input type="radio" name="resposta" value="Si">Sí <input type="radio" name="resposta" value="No">No
+				</th>
+			</tr>
+			<tr>
+				<th colspan="2" bgcolor="#EFEFEF">
+					Missatge:
+				</th>
+			</tr>
+			<tr>
+				<td colspan="2" align="center" bgcolor="#EFEFEF">
+					<textarea rows="5" cols="45"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" bgcolor="#EFEFEF">
+					<input type="checkbox" name="jocs" value="Overwatch" required=""> Overwatch
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" bgcolor="#EFEFEF">
+					<input type="checkbox" name="jocs" value="League of Legends" required=""> League of Legends
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" bgcolor="#EFEFEF">
+					<input type="checkbox" name="jocs" value="wii_sports" required=""> Wii Sports
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" bgcolor="#EFEFEF">
+					<input type="checkbox" name="jocs" value="fortnite" required=""> Fortnite
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" bgcolor="#EFEFEF" align="center">
+					<button type="submit" formmethod="get" value="send">Enviar</button>
+					<button type="reset">Borrar</button>
+				</td>
+			</tr>
+        </table>
+    </form>
+</body>
+</html>
