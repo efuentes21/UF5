@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="cat">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../css/formulari.css">
+        <title>Formulari</title>
+    </head>
+    <body>
+        
+        <!-- FORMULARI | <form> -->
+        <form>
+            <div id="general">
+                <h1>FORMULARI BÀSIC DE REGISTRE</h1>
+                <div id="linea1">
+                    <div id="dades">
+                        <div id="nom">
+                            <div>Nom:</div>
+                            <input id="inpnom" type="text" name="nom" maxlength="50">
+                        </div>
+                        <div id="cognom">
+                            <div>Cognom:</div>
+                        <input id="inpcogn" type="text" name="cognom" maxlength="50">
+                        </div>
+                    </div>
+                    <div id="sexe">
+                        <div id="dhome">
+                            <div id="home">Home:</div>
+                            <input id="inphome" type="radio" name="sex" value="home">
+                        </div>
+                        <div id="ddona">
+                            <div id="dona">Dona:</div>
+                            <input id="inpdona" type="radio" name="sex" value="dona">
+                        </div>
+                    </div>
+                    <div id="descripcio">
+                        <div id="descrip">Descripció</div>
+                        <textarea></textarea>
+                    </div>
+                </div>
+                <div id="linea2">
+                    <div id="dcorreu">
+                        <div id="correu">Correu:</div>
+                        <input id="inpmail" name="email" required="" type="email">
+                    </div>
+                    <div id="dpobl">
+                        <div id="poblacio">Població:</div>
+                        <select id="desplegable">
+                            <option value="Arbúcies">Arbúcies</option>
+                            <option value="Badalona">Badalona</option>
+                            <option value="Barcelona">Barcelona</option>
+                            <option value="Girona">Girona</option>
+                            <option value="Vilassar de Mar">Vilassar de Mar</option>
+                        </select>
+                    </div>
+                </div>
+                <div id="linea3">
+                    <div>
+                        <input id="inforch" type="checkbox" checked>Vull rebre informació sobre novetats i ofertes
+                    </div>
+                    <div>
+                        <input id="llegitch" type="checkbox">Declaro haver llegit i acceptar les condicions generals del programa i la normativa sobre protecció de dades indicada al RGPD
+                    </div>
+                    <button type="submit" formmethod="get" formaction="">Enviar</button>
+                </div>
+            </div> 
+        </form>
+    </body>
+</html>

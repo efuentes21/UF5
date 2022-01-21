@@ -1,0 +1,28 @@
+.element {
+    background-color: #0000FF;
+    border: 3px solid;
+    color: white;
+    width: 100px;
+    height: 20px;
+    padding: 4px;
+    padding-bottom: 4px;
+    margin: 2px 2px;
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+}
+#dissabte, #diumenge {
+    background-color: #007500;
+    border: 3px solid;
+    vertical-align: middle;
+}
+.element:hover {
+    border: 3px red solid;
+    vertical-align: middle;
+}
+#dissabte:hover, #diumenge:hover {
+    font-weight: bold;
+    color: black;
+    background-color: gray;
+    border: 3px red solid;
+}

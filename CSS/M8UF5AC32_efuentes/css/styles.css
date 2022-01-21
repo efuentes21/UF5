@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image:url(../img/fons.jpg);
+}
+header {
+    top: 0px;
+    padding-top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+#hdiv1 {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    border-radius: 50%;
+    width: 110px;
+    height: 90px;
+}
+#hdiv1 div {
+    color: white;
+    width: 100%;
+    text-align: right;
+}
+#hdiv2 ul {
+    display: flex;
+    flex-direction: row;
+}
+#hdiv2 ul li {
+    background-color: lightblue;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 15px;
+    color: white;
+}
+#hdiv2 ul li:first-child {
+    background-color: rgb(94, 94, 94);
+}
+#text {
+    text-align: left;
+    width: 80%;
+    font-size: 75px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+}
+#gtext1 {
+    width: 60%;
+}
+#general1 {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: gray;
+}
+#general1 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#general1 img {
+    width: 180px;
+    height: 170px;
+    border-radius: 100%;
+    margin: 10px 20px;
+}
+#icons {
+    margin-top: 2px;
+}
+#abaix {
+    margin-top: 3px;
+    font-size: 10px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+#inst {
+    color: rgb(240, 104, 126);
+}
+#face {
+    color: blue;
+}
+#twit {
+    color: lightblue;
+}
+#flik {
+    color: white;
+}
+#snap {
+    color: yellow;
+}

@@ -1,0 +1,96 @@
+* {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+title {
+    display: none;
+}
+img {
+    width: 180px;    
+}
+#div1 {
+    width: 75%;
+    background-color: rgb(100, 100, 100);
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+#div1 h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#div1 img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+h2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#general1 {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    margin-bottom: 15px;
+}
+#general1 div {
+    width: 30%;
+    height: 100%;
+    background-color: gray;
+    text-align: center;
+    border-radius: 20px;
+}
+#general1 > div {
+    margin: 10px 10px;
+}
+#perfil div, #estudis div, #treball div {
+    width: 90%;
+    background-color: white;
+    margin-bottom: 10px;
+}
+#general1 div dl dd {
+    margin: 0px;
+}
+#cont, #port {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    background-color: rgb(172, 172, 172);
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+#port {
+    background-color: rgb(204, 204, 204);
+    height: 250px;
+}
+#cont h1, #port h1 {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+#conjunto1, #conjunto2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+#conjunto1 div {
+    width: 40%;
+    background-color: white;
+    height: 130px;
+    border-radius: 15px;
+    margin: 0 5px;
+}
+#conjunto2 div {
+    width: 30%;
+    background-color: white;
+    height: 180px;
+    border-radius: 15px;
+    margin: 0 5px;
+}
+#conjunto1 div img, #conjunto2 div img {
+    width: 70%;
+}

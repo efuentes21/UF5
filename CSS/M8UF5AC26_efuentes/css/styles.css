@@ -1,0 +1,275 @@
+#body {
+    background-color: black;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    height: 890px;
+    color: white;
+}
+#general {
+    width: 400px;
+    height: 280px;
+    background-color: white;
+    margin: 0px 0px 0px 0px;
+}
+.vermell {
+    background-color: red;
+}
+.groc {
+    background-color: yellow;
+}
+#c1 {
+    width: 100%;
+    height: 70px;
+}
+#c2, #c3 {
+    display: flex;
+    flex-direction: row;
+}
+#div1 {
+    width: 200px;
+    height: 70px;
+    float: left;
+}
+#div2 {
+    width: 200px;
+    height: 70px;
+    float: right;
+    background-color: blue;
+}
+#div3 {
+    width: 100px;
+    height: 140px;
+}
+#cc1 {
+    display: flex;
+    flex-direction: column;
+}
+#sc1, #sc2  {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    float:right;
+}
+#div4 {
+    width: 100px;
+    height: 70px;
+    background-color: purple;
+}
+#div5 {
+    width: 200px;
+    height: 70px;
+    background-color: darkblue;
+}
+#div6 {
+    width: 100px;
+    height: 70px;
+    background-color: palevioletred;
+}
+#div7 {
+    width: 100px;
+    height: 70px;
+}
+#div8 {
+    width: 100px;
+    height: 70px;
+    background-color: white;
+}
+#div9 {
+    width: 100px;
+    height: 70px;
+    background-color: lightskyblue;
+}
+#div10 {
+    width: 100px;
+    height: 70px;
+    background-color: brown;
+}
+#div11 {
+    width: 100px;
+    height: 70px;
+}
+#div12 {
+    width: 100px;
+    height: 70px;
+    background-color: rgb(44, 0, 0);
+}
+
+/* Mondrian 2 */
+#BG {
+    width: 100%;
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#separador {
+    width: 100%;
+    height: 50px;
+}
+img {
+    width: 600px;
+    height: 400px;
+}
+#general2 {
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    height: 400px;
+}
+#col1, #col2, #col3, #col4, #col5 {
+    display: flex;
+    flex-direction: column;
+    background-color: pink;
+}
+#col1 {
+    background-color: rgb(243, 243, 243);
+    width: 61px;
+}
+#cd1-1 {
+    border-bottom: 6px black solid;
+    height: 75px;
+}
+#cd1-2 {
+    border-bottom: 6px black solid ;
+    height: 220px;
+}
+#cd1-3 {
+    border-bottom: 6px black solid ;
+    height: 50px;
+}
+#cd1-4 {
+    height: 50px;
+    border-bottom: 0px;
+}
+#col2 {
+    background-color: yellow;
+    border-right:7px black solid;
+    border-left:6px black solid;
+    width: 128px;
+}
+#col3 {
+    background-color: yellow;
+    width: 128px;
+}
+#cd3-1 {
+    background-color: rgb(34, 34, 255);
+    height: 130px;
+    border-bottom: 6px black solid;;
+}
+#col4 {
+    border-right: 7px black solid;
+    border-left: 6px black solid;
+    width: 128px;
+}
+#cd4-1 {
+    background-color: red;
+    height: 250px;
+    border-bottom: 6px black solid;
+}
+#cd4-2 {
+    display: flex;
+    flex-flow: column;
+    background-color: red;
+}
+#ccd4-2 {
+    display: flex;
+    flex-direction: row;
+}
+#cd4-2-1 {
+    border-right: 6px black solid;
+}
+#cd4-2-1, #cd4-2-2 {
+    width: 100%;
+    height: 40px;
+    border-bottom: black solid 6px;
+}
+#ccd4-3 {
+    display: flex;
+    flex-direction: row;
+}
+#cd4-3-1 {
+    border-right: 6px black solid;
+    background-color: rgb(34, 34, 255);
+}
+#cd4-3-1, #cd4-3-2 {
+    width: 100%;
+    height: 100px;
+}
+#col5 {
+    width: 128px;
+}
+#cd5-1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 130px;
+    border-bottom: 6px black solid;
+}
+#ccd5-1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 84px;
+    border-bottom: black solid 6px;
+}
+#cd5-1-1 {
+    width: 50%;
+    border-right: 6px solid black;
+    background-color: yellow;
+}
+#ccd5-1-1 {
+    width: 50%;
+    height: 100%;
+}
+#cd5-1-2 {
+    background-color: yellow;
+    height: 46%;
+    border-bottom: black solid 6px;
+}
+#cd5-1-3 {
+    background-color: red;
+    height: 46%;
+    border-bottom: black solid 6px;
+}
+#ccd5-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+#cd5-1-2-1 {
+    width: 50%;
+    border-right: black solid 6px;
+    height: 40px;
+    background-color: rgb(243, 243, 243);
+}
+#cd5-1-2-2 {
+    width: 50%;
+    height: 40px;
+    background-color: rgb(243, 243, 243);
+}
+#cd5-2 {
+    width: 100%;
+    height: 112px;
+    border-bottom: 6px black solid;
+    background-color: red;
+}
+#cd5-3 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 146px;
+    background-color: yellow;
+}
+#cd5-3-1 {
+    width: 50%;
+    border-right: black solid 6px;
+}
+#cd5-3-2 {
+    width: 50%;
+}
+h1 {
+    text-align: center;
+}
