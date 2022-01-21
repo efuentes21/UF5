@@ -1,0 +1,51 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    background-image: url(../img/IMAGEN.png);
+    background-attachment: fixed;
+}
+table {
+    width: 70%;
+}
+.p1 {
+    background-color: lime;
+}
+.p2 {
+    background-color: rgb(0, 226, 0);
+}
+.p3 {
+    background-color: rgb(0, 197, 0);
+}
+.p4 {
+    background-color: rgb(0, 173, 0);
+}
+.p5 {
+    background-color: rgb(0, 148, 0);
+}
+.p6 {
+    background-color: rgb(0, 129, 0);
+}
+.p7 {
+    background-color: rgb(0, 119, 0);
+}
+.p8 {
+    background-color: rgb(0, 100, 0);
+}
+.p9 {
+    background-color: rgb(0, 80, 0);
+}
+.p10 {
+    background-color: rgb(0, 61, 0);
+}
+.p1:hover, .p2:hover, .p3:hover, .p4:hover, .p5:hover, .p6:hover, .p7:hover, .p8:hover, .p9:hover, .p10:hover{
+    background-color: blue;
+}
+.pal1 {
+    text-decoration: underline;
+}
+.pal2 {
+    text-decoration: overline;
+}
+.pal3 {
+    font-weight: bold;
+}

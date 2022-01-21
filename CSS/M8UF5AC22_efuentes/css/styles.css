@@ -1,0 +1,26 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:yellow;
+}
+a:link {
+    color:red;
+}
+a:visited {
+    color:purple;
+}
+a:hover {
+    color:green;
+    text-decoration: none;
+}
+a:active {
+    color:lime;
+}
+
+#Titol1 {
+    font-size:20px;
+    text-align:center;
+    color:orange;
+}
+ul li {
+    font-size: 15px;
+}
