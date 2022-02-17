@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="cat">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2? family= Rubik:wght@500 & display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="../css/trivia.css">
+        <link rel="icon" href="../img/icono1.ico">
+        <title>Trivial</title>
+    </head>
+    <body id="triviapag" onload="agafar()">
+        <header>
+            <div id="contingut"></div>
+        </header>
+        <form id="trivia">
+            <div><h1>TRIVIAL DE LEAGUE OF LEGENDS</h1></div>
+            <div class="pregunta">
+                <h2>Com s'anomena aquest personatge?</h2>
+                <img src="../img/kayn.png" alt="imatge" id="preguntaimg">
+                <div>
+                    <img src="../img/rengar-n.png" alt="resposta" id="1-1" onclick="comprovar('1-1')">
+                    <img src="../img/kayn-n.png" alt="resposta" id="1-2" onclick="comprovar('1-2')">
+                </div>
+                <div>
+                    <img src="../img/leesin-n.png" alt="resposta" id="1-3" onclick="comprovar('1-3')">
+                    <img src="../img/jax-n.png" alt="resposta" id="1-4" onclick="comprovar('1-4')">
+                </div>
+            </div>
+            <div class="pregunta">
+                <h2>Quin preu té aquest objecte?</h2>
+                <img src="../img/reloj.png" alt="imatge" id="preguntaimg">
+                <div>
+                    <img src="../img/650-preu.png" alt="resposta" id="2-1" onclick="comprovar('2-1')">
+                    <img src="../img/900-preu.png" alt="resposta" id="2-2" onclick="comprovar('2-2')">
+                </div>
+                <div>
+                    <img src="../img/1200-preu.png" alt="resposta" id="2-3" onclick="comprovar('2-3')">
+                    <img src="../img/2600-preu.png" alt="resposta" id="2-4" onclick="comprovar('2-4')">
+                </div>
+            </div>
+            <div class="pregunta">
+                <h2>Quina relació tenen aquests personatges en Arcane?</h2>
+                <img src="../img/jinx_vi.jpg" alt="imatge" id="pregunta3">
+                <div>
+                    <img src="../img/parella-r.png" alt="resposta" id="3-1" onclick="comprovar('3-1')"> 
+                    <img src="../img/rivals-r.png" alt="resposta" id="3-2" onclick="comprovar('3-2')"> 
+                </div>
+                <div>
+                    <img src="../img/germanes-r.png" alt="resposta" id="3-3" onclick="comprovar('3-3')"> 
+                    <img src="../img/amigues-r.png" alt="resposta" id="3-4" onclick="comprovar('3-4')"> 
+                </div>
+            </div>
+            <div class="pregunta">
+                <h2>Quin és aquest mode de joc?</h2>
+                <img src="../img/aram.png" alt="imatge" id="preguntaimg">
+                <div>
+                    <img src="../img/URF-r.png" alt="resposta" id="4-1" onclick="comprovar('4-1')">
+                    <img src="../img/usb-r.png" alt="resposta" id="4-2" onclick="comprovar('4-2')">
+                </div>
+                <div>
+                    <img src="../img/nexus_blitz-r.png" alt="resposta" id="4-3" onclick="comprovar('4-3')">
+                    <img src="../img/aram-r.png" alt="resposta" id="4-4" onclick="comprovar('4-4')">
+                </div>
+            </div>
+            <div class="pregunta">
+                <h2>De quí és aquest set d'habilitats?</h2>
+                <img src="../img/kitlux.png" alt="imatge" id="pregunta5">
+                <div>
+                    <img src="../img/jinx-r.png" alt="resposta" id="5-1" onclick="comprovar('5-1')">
+                    <img src="../img/viktor-r.png" alt="resposta" id="5-2" onclick="comprovar('5-2')">
+                </div>
+                <div>
+                    <img src="../img/lux-r.png" alt="resposta" id="5-3" onclick="comprovar('5-3')">
+                    <img src="../img/volibear-r.png" alt="resposta" id="5-4" onclick="comprovar('5-4')">
+                </div>
+            </div>
+            <div class="pregunta">
+                <h2>Quina empresa desenvolupa League of Legends?</h2>
+                <img src="../img/Logo.png" alt="imatge" id="preguntaimg">
+                <div>
+                    <img src="../img/riot-r.png" alt="resposta" id="6-1" onclick="comprovar('6-1')">
+                    <img src="../img/linux-r.png" alt="resposta" id="6-2" onclick="comprovar('6-2')">
+                </div>
+                <div>
+                    <img src="../img/mocosoft-r.png" alt="resposta" id="6-3" onclick="comprovar('6-3')">
+                    <img src="../img/tencent-r.png" alt="resposta" id="6-4" onclick="comprovar('6-4')">
+                </div>
+            </div>
+        </form>
+        <script src="../js/trivial.js"></script>
+    </body>
+</html>

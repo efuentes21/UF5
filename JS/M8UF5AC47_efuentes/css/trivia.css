@@ -1,0 +1,87 @@
+header {
+    position: fixed;
+    top: 5px;
+    left: 5px;
+}
+body {
+    background-color: rgb(141, 207, 199);
+}
+#trivia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+}
+#contingut {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#formu {
+    top: 50%;
+    position: absolute;
+    margin-top: -180px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#formuname {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#formuname input {
+    width: 50%;
+}
+#formu img {
+    width: 70%;
+}
+#formu button, #formuname button {
+    width: 60%;
+    height: 40px;
+    margin-top: 8px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif; 
+}
+#trivia, #trivia > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pregunta {
+    background-color: lightblue;
+    border-radius: 25px;
+    padding: 5px;
+    padding-bottom: 15px;
+    width: 600px;
+    margin: 5px;
+}
+.pregunta img {
+    width: 120px;
+    height: 30px;
+}
+#preguntaimg {
+    height: 120px;
+    margin-bottom: 10px;
+}
+#pregunta3 {
+    width: 300px;
+    height: 180px;
+    margin-bottom: 10px;
+}
+#pregunta5 {
+    width: 300px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+h1 {
+    font-family: 'Rubik', sans-serif;
+}
