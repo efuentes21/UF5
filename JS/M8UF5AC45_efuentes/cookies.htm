@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="cat">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css">
+        <title>Cookies</title>
+    </head>
+    <body>
+        <form>
+            <div id="general1">
+                <div>Nom:</div>
+                <input id="nomreg" type="text">
+                <div>Contrasenya:</div>
+                <input id="contra" type="password">
+                <div>Repeteix la contrasenya:</div>
+                <input id="contra2" type="password">
+                <button id="comprovar" type="button" onclick="comprov()">Comprovar</button>
+            </div>
+            <div id="general2">
+                <div>Nom:</div>
+                <input id="nom" type="text">
+                <div>Cognom:</div>
+                <input id="cognom" type="text">
+                <div id="botons">
+                    <button onclick="guardar()">Guardar dades</button>
+                    <button type="button" onclick="recuperar()">Recuperar dades</button>
+                    <button onclick="esborrar()">Esborrar dades</button>
+                </div>
+                
+            </div>
+        </form>
+        <script src="js/cookies.js"></script>
+    </body>
+</html>

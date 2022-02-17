@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="cat">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <form name="calculadora">
+        <input id="resultado" type="text" name="result" value="">
+        <div id="cdiv">
+            <img src="img/CASIO.png">
+            <button type="button" value="c" onclick="afegir(this)">C</button>
+        </div>
+        <div id="div1">
+            <button type="button" value="7" onclick="afegir(this)">7</button>
+            <button type="button" value="8" onclick="afegir(this)">8</button>
+            <button type="button" value="9" onclick="afegir(this)">9</button>
+            <button type="button" value="/" onclick="afegir(this)">/</button>
+        </div>
+        <div id="div2">
+            <button type="button" value="4" onclick="afegir(this)">4</button>
+            <button type="button" value="5" onclick="afegir(this)">5</button>
+            <button type="button" value="6" onclick="afegir(this)">6</button>
+            <button type="button" value="*" onclick="afegir(this)">*</button>
+        </div>
+        <div id="div3">
+            <button type="button" value="1" onclick="afegir(this)">1</button>
+            <button type="button" value="2" onclick="afegir(this)">2</button>
+            <button type="button" value="3" onclick="afegir(this)">3</button>
+            <button type="button" value="-" onclick="afegir(this)">-</button>
+        </div>
+        <div id="div4">
+            <button type="button" value="0" onclick="afegir(this)">0</button>
+            <button type="button" value="." onclick="afegir(this)">.</button>
+            <button type="button" value="=" onclick="afegir(this)">=</button>
+            <button type="button" value="+" onclick="afegir(this)">+</button>
+        </div>
+        
+        
+    </form>
+    <script src="js/calculadora.js"></script>
+</body>
+</html>
