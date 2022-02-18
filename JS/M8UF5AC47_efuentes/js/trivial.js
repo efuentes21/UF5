@@ -21,7 +21,7 @@ function preguntar(x, y) {
 function edat(x) {
     if(x == "major") {
         window.open("trivial-api.htm?nombreusuario="+nomusuari);
-        localStorage.setItem("nomsave", usuarisregistrats);
+        localStorage.setItem("nomsave", nomusuari);
     } else if(x == "menor") {
         window.open("../index.htm")
     }
