@@ -55,17 +55,7 @@ function limpiar() {
 }
 
 function comprovar(x) {
-    if(x == localStorage.getItem("resp1")) {
-        alert("Molt bé");
-    } else if(x == localStorage.getItem("resp2")) {
-        alert("Molt bé");
-    } else if(x == localStorage.getItem("resp3")) {
-        alert("Molt bé");
-    } else if(x == localStorage.getItem("resp4")) {
-        alert("Molt bé");
-    } else if(x == localStorage.getItem("resp5")) {
-        alert("Molt bé");
-    } else if(x == localStorage.getItem("resp6")) {
+    if(x == localStorage.getItem("resp1") || x == localStorage.getItem("resp2") || x == localStorage.getItem("resp3") || x == localStorage.getItem("resp4") || x == localStorage.getItem("resp5") || x == localStorage.getItem("resp6")) {
         alert("Molt bé");
     } else {
         alert("Malament");
