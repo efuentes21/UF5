@@ -17,7 +17,7 @@ function preguntar(x, y) {
     }
 }
 
-// Una vez 
+// Una vez iniciado sesion con un nombre nuevo, pregunta la edad y pasa o no al trivial
 function edat(x) {
     if(x == "major") {
         window.open("trivial-api.htm?nombreusuario="+nomusuari);
